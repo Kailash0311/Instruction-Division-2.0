@@ -8,7 +8,7 @@ let manageAdmins = require("./manageAdmins.js");
 let portalToggle = require("./portals.js");
 let switchUser = require("./switchUser.js");
 let ttExceptions = require("./ttExceptions");
-var roomMap = require("./room-map.js");
+var roomMap = require("./roomMap.js");
 
 router.use("/holidays", holiday);
 router.use("/manage-admins", manageAdmins);
