@@ -32,7 +32,7 @@ let securityCheck = function(req, res, next) {
         } else {
           res.render("custom_errors", {
             message: "You do not have permission to access this portal",
-            details: "Contact Timetable Division software team for assistance.",
+            details: "Contact AUGS Division software team for assistance.",
             redirect: "/admin",
             timeout: 5
           });
@@ -40,7 +40,7 @@ let securityCheck = function(req, res, next) {
       } else {
         res.render("custom_errors", {
           message: "This portal has been disabled by the Administrator",
-          details: "Contact Timetable Division software team for assistance.",
+          details: "Contact AUGS Division software team for assistance.",
           redirect: "/admin",
           timeout: 5
         });

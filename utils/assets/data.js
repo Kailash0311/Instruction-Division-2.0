@@ -127,7 +127,7 @@ var superUsers = [
     portals: [],
     home: "",
     superUser: true,
-    department: "Timetable Division",
+    department: "AUGS Division",
     departmentCode: "ID",
     maxProjects: 2
   },
@@ -137,7 +137,7 @@ var superUsers = [
     portals: [],
     home: "",
     superUser: true,
-    department: "Timetable Division",
+    department: "AUGS Division",
     departmentCode: "ID",
     maxProjects: 2
   },
@@ -147,7 +147,7 @@ var superUsers = [
     portals: [],
     home: "",
     superUser: true,
-    department: "Timetable Division",
+    department: "AUGS Division",
     departmentCode: "ID",
     maxProjects: 2
   },
@@ -157,17 +157,7 @@ var superUsers = [
     portals: [],
     home: "",
     superUser: true,
-    department: "Timetable Division",
-    departmentCode: "ID",
-    maxProjects: 2
-  },
-  {
-    name: "ID Office",
-    email: "id@hyderabad.bits-pilani.ac.in",
-    portals: [],
-    home: "",
-    superUser: true,
-    department: "Timetable Division",
+    department: "AUGS Division",
     departmentCode: "ID",
     maxProjects: 2
   }

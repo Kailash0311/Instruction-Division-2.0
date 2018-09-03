@@ -33,7 +33,7 @@ let securityCheck = function(req, res, next) {
           callback: "/dashboard",
           message: "Disabled Portal",
           details:
-            "This portal has been disabled by the Administrator. Please contact Timetable Division for assistance."
+            "This portal has been disabled by the Administrator. Please contact AUGS Division for assistance."
         });
       }
     }
@@ -97,7 +97,7 @@ router.get(
             callback: "/",
             message: "Server Error",
             details:
-              "An unexpected error occoured. Contact Timetable Division software team for assistance."
+              "An unexpected error occoured. Contact AUGS Division software team for assistance."
           });
         }
         if (result.length == 0) {

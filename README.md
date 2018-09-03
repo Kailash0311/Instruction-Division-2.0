@@ -1,7 +1,7 @@
 # Instruction-Division-2.0 [![Build Status](https://travis-ci.com/ID-BPHC/Instruction-Division-2.0.svg?branch=master)](https://travis-ci.com/ID-BPHC/Instruction-Division-2.0)
 Instruction Division is a sub-division of BITS Pilani Hyderabad Campus. It oversees operations pertaining to Academic Instructor Feedback, Content Management System, Student Coursework, Biometric Attendance and Teaching Assistantship and formalizing Student-Professor projects.
 
-This project is live at : https://id.bits-hyderabad.ac.in/
+This project is live at : https://augsd.bits-hyderabad.ac.in/
 
 ## Technology Stack
 1. NodeJS
@@ -23,7 +23,7 @@ This project is live at : https://id.bits-hyderabad.ac.in/
 
 ## Project Structure
 
-The project follows a portal based structure. Timetable Division provides it's services in the form of web portals which can be enabled/disabled from time to time. The current state of a portal is stored in a MongoDB collection (`portals`). 
+The project follows a portal based structure. AUGS Division provides it's services in the form of web portals which can be enabled/disabled from time to time. The current state of a portal is stored in a MongoDB collection (`portals`). 
 
 #### Portal Types
 1. Admin Portals `routes/admin/portals` & `views/admin/portals`
@@ -77,7 +77,7 @@ Several housekeeping utilities can be found in `utils` directory
 1. `proj-pdf-generator` directory has utilities to create and send PDFs to instructors after the project allotment process is complete
 
 ## Faculty Coordinators
-1. Prof. PK Sahoo (Faculty in-charge, Timetable Division)
+1. Prof. PK Sahoo (Faculty in-charge, AUGS Division)
 1. Dr. Aruna Malapati (In-charge Software Development)
 
 ## Contributors
