@@ -100,11 +100,19 @@ a img {
     height: 60px;
     line-height: 68px;
     background-color: transparent!important;
-    border-bottom: 4px solid transparent
+    border-bottom: 4px solid transparent;
 }
-
-.android-navigation .mdl-navigation__link:hover {
-    border-bottom: 4px solid #8bc34a
+.android-navigation .mdl-navigation__link:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.android-navigation .mdl-navigation__link:hover:after {
+    width: 100%;
+    background: navy;
 }
 
 .android-search-box {
@@ -426,7 +434,7 @@ a img {
 }
 
 #heading {
-    background: rgba(255, 255, 255, 0.2);
+    background:transparent;
     padding: 20px;
     border-radius: 25px;
 }
@@ -483,5 +491,8 @@ a img {
     .android-wear-band-text {
         margin-left: 0;
         padding: 16px
+    }
+    .sub-heading {
+        font-size:10px;
     }
 }

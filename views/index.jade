@@ -51,6 +51,12 @@ html(lang='en')
 		// Page styles
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		style.
+			.sub-heading {
+				font-size: 15px;
+				margin-top:7px;
+				letter-spacing: 4px;
+				text-transform: uppercase;
+			}
 			.custom-title {
 				font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 				line-height: 1;
@@ -407,16 +413,11 @@ html(lang='en')
 					// Navigation
 					.android-navigation-container
 						nav.android-navigation.mdl-navigation
-							a.mdl-navigation__link.mdl-typography--text-uppercase(href='http://bio.bits-hyderabad.ac.in/Bitsclassroom/login.aspx') Biometric
-							a.mdl-navigation__link.mdl-typography--text-uppercase(href='http://id.bits-hyderabad.ac.in/moodle/') CMS
-							a.mdl-navigation__link.mdl-typography--text-uppercase(href='https://a.impartus.com/login/') Impartus
 							a.mdl-navigation__link.mdl-typography--text-uppercase(href='/type') Dashboard
 							a.mdl-navigation__link.mdl-typography--text-uppercase(href='/team') Team
 					span.android-mobile-title.mdl-layout-title
 						p.custom-title2 BITS Pilani Hyderabad Campus
 			.android-drawer.mdl-layout__drawer
-				span.mdl-layout-title(style='background: #64B5F6')
-					img.android-logo-image(src='images/logo/tdlogo-02.png')
 				nav.mdl-navigation
 					a.mdl-navigation__link(href='/type')
 						//- img(src="/images/logo/tdlogo-short-01.png" alt="Dashboard" height="32" width="32" style="padding-right:20px")
@@ -428,6 +429,7 @@ html(lang='en')
 				.android-be-together-section.mdl-typography--text-center
 					.logo-font.android-slogan
 						span#heading AUGS Division
+						div.sub-heading Academic Undergraduate Studies
 					//- .logo-font.android-sub-slogan
 					//- 	span(style="padding:5px;background-color:#333;color:#ccc;")
 					//- 		a(style="color:#ccc;text-decoration:none;" href="/team") #team
