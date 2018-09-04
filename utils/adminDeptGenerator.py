@@ -30,7 +30,7 @@ for line in f.readlines():
 		department = {}
 		department['name'] = data[departmentNameIndex]
 		department['email'] = data[departmentEmailIndex]
-		department['portals'] = ['room-booking-faculty']
+		department['portals'] = []
 		department['home'] = '/'
 		department['superUser'] = False
 

@@ -14,27 +14,6 @@ var portals = [
     admin: false
   },
   {
-    displayName: "Room Booking",
-    name: "room-booking-student",
-    icon: "class",
-    active: false,
-    admin: false
-  },
-  {
-    displayName: "Room Booking Approval",
-    name: "room-booking-approval",
-    icon: "done",
-    active: false,
-    admin: true
-  },
-  {
-    displayName: "Room Booking",
-    name: "room-booking-faculty",
-    icon: "class",
-    active: false,
-    admin: true
-  },
-  {
     displayName: "Apply Teacher Assistantship",
     name: "ta-application",
     icon: "supervisor_account",
@@ -59,20 +38,6 @@ var portals = [
     displayName: "[IC] TA Applications",
     name: "ta-app-ic",
     icon: "assignment",
-    active: false,
-    admin: true
-  },
-  {
-    displayName: "ESD- Room Bookings",
-    name: "room-booking-esd",
-    icon: "class",
-    active: false,
-    admin: true
-  },
-  {
-    displayName: "View Room Bookings",
-    name: "room-booking-all",
-    icon: "class",
     active: false,
     admin: true
   },
